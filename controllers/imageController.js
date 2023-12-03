@@ -1,3 +1,4 @@
+// imageController.js berisi fungsi-fungsi yang berhubungan dengan gambar
 const path = require('path');
 
 function getImage(req, res) {

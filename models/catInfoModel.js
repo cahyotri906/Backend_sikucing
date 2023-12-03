@@ -1,24 +1,28 @@
-const catCareInfo = {
+// catInfoHandler.js is responsible for handling cat info data
+const catCareInfo = [
   // Informasi perawatan untuk beberapa ras kucing
-  persian: {
-    description: 'Kucing Persia memiliki bulu panjang dan cenderung membutuhkan grooming yang rajin...',
-    care: 'Untuk merawat kucing Persia, pastikan rutin menyisir bulunya...',
-  },
-  siamese: {
-    description: 'Kucing Siam dikenal sebagai kucing yang cerdas dan aktif...',
-    care: 'Untuk merawat kucing Siam, berikan stimulasi mental dan latihan fisik yang cukup...',
-  },
-  maineCoon: {
-    description: 'Maine Coon adalah kucing yang besar dan ramah...',
-    care: 'Untuk merawat Maine Coon, pastikan memberikan makanan yang sehat dan sesuai ukuran tubuhnya...',
-  },
+   {   Ras : 'Persia', 
+      Deskripsi : 'Kucing Persia memiliki bulu panjang dan cenderung membutuhkan grooming yang rajin...', 
+   Perawatan : 'Untuk merawat kucing Persia, pastikan rutin menyisir bulunya',
+  Images : 'https://cahyo-406812.et.r.appspot.com/api/images/anak_kecil.jpg' },
+    { Ras : 'Anggora',
+     Deskripsi : 'Kucing Anggora memiliki bulu panjang dan cenderung membutuhkan grooming yang rajin...',
+    Perawatan : 'Untuk merawat kucing Anggora, pastikan rutin menyisir bulunya',
+  Images : 'https://cahyo-406812.et.r.appspot.com/api/images/anak_kecil.jpg' },
+    { Ras : 'Sphynx', 
+    Deskripsi : 'Kucing Sphynx tidak memiliki bulu dan cenderung membutuhkan grooming yang rajin...',
+    Perawatan : 'Untuk merawat kucing Sphynx, pastikan rutin membersihkan kulitnya',
+   Images : 'https://cahyo-406812.et.r.appspot.com/api/images/anak_kecil.jpg' },
   // Tambahkan informasi perawatan untuk ras kucing lain di sini
-};
+];
 
 function getCatInfo(breed) {
-  // Mengembalikan informasi perawatan berdasarkan nama ras
-  const lowercaseBreed = breed ? breed.toLowerCase() : null;
-  return lowercaseBreed ? catCareInfo[lowercaseBreed] : 'Informasi untuk ras ini belum tersedia.';
+  // Temukan informasi kucing berdasarkan ras
+  const catInfo = catCareInfo.find((item) => item.Ras === breed);
+
+  // Kembalikan objek info kucing, atau null jika tidak ditemukan
+  return catCareInfo.find((item) => item.Ras === breed);
 }
+
 
 module.exports = { getCatInfo };

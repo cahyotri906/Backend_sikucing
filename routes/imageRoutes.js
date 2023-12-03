@@ -1,3 +1,4 @@
+// imageRoutes.js berisi definisi endpoint khusus untuk menampilkan gambar
 const express = require('express');
 const imageController = require('../controllers/imageController');
 

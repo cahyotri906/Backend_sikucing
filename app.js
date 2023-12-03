@@ -1,13 +1,9 @@
-// app.js
-
 const express = require('express');
-const imageRoutes = require('./routes/imageRoutes');
-const catInfoRoutes = require('./routes/catInfoRoutes');
+const combinedRoutes = require('./routes/combinedRoutes');
 
 const app = express();
 
-app.use('/api', imageRoutes);
-app.use('/api', catInfoRoutes);
+app.use('/api', combinedRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
