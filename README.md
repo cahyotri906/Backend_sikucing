@@ -40,5 +40,5 @@ Pastikan untuk menyesuaikan logika dalam controller sesuai dengan kebutuhan apli
 
 Terima kasih telah menggunakan Backend Catstone!
 
-## Dokuument Capstone 
+## Dokument Capstone 
 [Project Plan](https://docs.google.com/document/d/1JTYEJDSnWBDMwW1MQkx22lLPjyEEPRrtBytenAW_JC8/edit)
