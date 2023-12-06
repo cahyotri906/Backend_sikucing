@@ -1,6 +1,3 @@
-# Backend Catstone
-
-Aplikasi ini menyediakan informasi tentang kucing, makanan, vitamin dan cara perawatannya.
 ## TEAM ID CH2-PS104 
 Nama anggota tim : 
 1. (ML) M258BSX1076 – Saniyya Ruzzy Marwa – University of Muhammadiyah Malang - [Active]
@@ -11,6 +8,9 @@ Nama anggota tim :
 6. (MD) A314BSY2105–Muhammad Naufal Firdaus – Universitas Singaperbangsa Karawang  - [Active]
 7. (MD) A296BSX2359 – Salwa Ghaliyah Hilaly – UPN Veteran Jawa Timur- [Active]
 
+# Backend Catstone
+
+Aplikasi ini menyediakan informasi tentang kucing, makanan, vitamin dan cara perawatannya.
 
 ## Fitur
 
