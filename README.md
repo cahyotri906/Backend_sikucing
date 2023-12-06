@@ -3,7 +3,7 @@ Nama anggota tim :
 1. (ML) M258BSX1076 – Saniyya Ruzzy Marwa – University of Muhammadiyah Malang - [Active]
 2. (ML) M258BSY0466 – Rezandy Kusbiantoro Nurul Mubin –  University of Muhammadiyah Malang- [Active]
 3. (ML) M258BSY1856 – Mukhammad Nisful Lail – University of Muhammadiyah Malang - [Active]
-4. CC) C314BSY3046 – Cahyo Tri Atmojo – Universitas Singaperbangsa Karawang - [Active]
+4. (CC) C314BSY3046 – Cahyo Tri Atmojo – Universitas Singaperbangsa Karawang - [Active]
 5. (CC) C314BSY4199 – Alhafidz William Adzanta – Universitas Singaperbangsa Karawang  - [Active]
 6. (MD) A314BSY2105–Muhammad Naufal Firdaus – Universitas Singaperbangsa Karawang  - [Active]
 7. (MD) A296BSX2359 – Salwa Ghaliyah Hilaly – UPN Veteran Jawa Timur- [Active]
@@ -22,9 +22,10 @@ Aplikasi ini menyediakan informasi tentang kucing, makanan, vitamin dan cara per
 1. Pastikan Anda memiliki Node.js diinstal.
 2. Clone repositori ini ke komputer Anda.
 3. Buka terminal dan masuk ke direktori proyek.
-4. Jalankan `npm install` untuk menginstal semua dependensi.
-5. Jalankan `npm start` untuk memulai server.
-6. Buka browser atau gunakan alat pengujian API seperti Postman untuk mengakses endpoint yang tersedia.
+4. Jalankan `npm init -y`
+5. Jalankan `npm install express` untuk menginstal semua dependensi.
+6. Jalankan `npm start` untuk memulai server.
+7. Buka browser atau gunakan alat pengujian API seperti Postman untuk mengakses endpoint yang tersedia.
 
 ## Pengembangan Lanjutan
 
