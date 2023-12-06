@@ -15,7 +15,7 @@ Aplikasi ini menyediakan informasi tentang kucing, makanan, vitamin dan cara per
 ## Fitur
 
 - **/api/data/kucing?breed=Sphynx**: Mendapatkan informasi tentang kucing berdasarkan rasnya,deskrips,gambar kucing,gambar vitamin dan gambar makanan.
-- **/api/data/all** : Memunculkan semua data rasn,deskrips,gambar kucing,gambar vitamin dan gambar makanan
+- **/api/data/all** : Memunculkan semua data ras,deskrips,gambar kucing,gambar vitamin dan gambar makanan.
 
 ## Cara Menggunakan
 
