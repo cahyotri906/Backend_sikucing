@@ -66,6 +66,9 @@ function getCatInfo(breed) {
   // Kembalikan objek info kucing jika ditemukan, atau null jika tidak ditemukan
   return catInfo || { Ras: 'Not found', Deskripsi: 'Informasi tidak tersedia untuk ras ini.', Perawatan: '', Kucing: '', Makanan1: '',Makanan2: '',Makanan3: '', Vitamin1: '',Vitamin2: '',Vitamin3: '' };
 }
+function getAllCatInfo() {
+  return catCareInfo; // This function returns all cat care information
+}
 
 
-module.exports = { getCatInfo };
+module.exports = { getCatInfo,getAllCatInfo };
