@@ -4,5 +4,7 @@ const catInfoModel = require('../models/catInfoModel');
 function getCatInfo(breed) {
   return catInfoModel.getCatInfo(breed);
 }
-
-module.exports = { getCatInfo };
+function getAllCatInfo() {
+  return catInfoModel.getAllCatInfo();
+}
+module.exports = { getCatInfo,getAllCatInfo };
