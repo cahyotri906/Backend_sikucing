@@ -9,7 +9,10 @@ router.get('/data/kucing', (req, res) => {
   const {Ras,Deskripsi,Perawatan,Kucing,Makanan1,Makanan2,Makanan3,Vitamin1,Vitamin2,Vitamin3} = catInfoHandler.getCatInfo(breed);
   res.json({ Ras,Deskripsi,Perawatan,Kucing,Makanan1,Makanan2,Makanan3,Vitamin1,Vitamin2,Vitamin3 });
 });
-
+router.get('/data/all', (req, res) => {
+  const allCatInfo = catInfoHandler.getAllCatInfo();
+  res.json(allCatInfo);
+});
 // Endpoint untuk menampilkan gambar
 router.get('/images/:imageName', imageController.getImage);
 
