@@ -1,0 +1,17 @@
+runtime: python39  # Sesuaikan dengan versi Python yang Anda gunakan
+
+env_variables:
+  PYTHONBUFFERED: 'True'
+  APP_HOME: '/app'
+
+handlers:
+- url: /.*
+  script: auto
+
+runtime_config:
+  python_version: 3.10
+
+manual_scaling:
+  instances: 1
+
+entrypoint: gunicorn -b :$PORT -w 1 -t 0 app:app
