@@ -1,0 +1,5 @@
+0 American_Bobtail
+1 Munchkin
+2 Persian
+3 Scotissh_Fold
+4 Sphynx
